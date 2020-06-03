@@ -1,0 +1,26 @@
+.header-img{
+    margin-left:10%;
+    
+}
+.header{
+    display: flex;
+    margin-top:2%;
+}
+
+.app-body{
+    background-color: #2c3b4e;
+    height: 100%;
+    width:100%;
+}
+create{
+    color:white;
+}
+html, body {
+    height: 100%;
+  }
+  body {
+        background-color: #2c3b4e;
+  }
+  .text-content{
+    margin-left:"10px";
+  }

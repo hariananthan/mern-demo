@@ -1,0 +1,36 @@
+{
+ "name": "mern-demo",
+  "version": "1.0.0",
+  "author": {
+    "name": "hariananthan"
+  },
+
+  "bundleDependencies": false,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "deprecated": false,
+  "description": "A MERN demo for basic CRUD operations",
+  "keywords": [
+    "mern-demo",
+    "mern-crud",
+    "crud",
+    "react",
+    "react-mern",
+    "mern"
+  ],
+  "license": "MIT",
+  "main": "index.js"
+ 
+}
